@@ -1,0 +1,28 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: url("https://th.bing.com/th/id/OIP.zw-PI0sXfK488Km_AuaQyQHaE8?rs=1&pid=ImgDetMain")
+    no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+form#container {
+  backdrop-filter: blur(8px);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #57a4f1;
+}
+
+.btn {
+  margin-left: 0.5rem;
+}
