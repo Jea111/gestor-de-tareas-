@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scrollbar-width: thin;
+  scroll-behavior: smooth;
+  scrollbar-color: #0b2c52 #190122;
+}
+
+/* fondo oscuro body */
+.dark {
+  background-color: #000;
+}
+
+.dark input,
+.dark navbar {
+  background-color: #333;
+}
+
+#resultado img {
+  width: 80px;
+}
